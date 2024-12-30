@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Uthuman Ali",
+  title: "Hi all, I'm Uthuman",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate DevOps 🚀 having an experience of building Web the Application in Cloud and On-premises with CI/CD Pipeline."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,23 +33,24 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+      github: "https://github.com/ali2307",
+      linkedin: "https://www.linkedin.com/in/uthumanali7/",
+      gmail: "uthumanaliakbar@gmail.com",
+      medium: "https://medium.com/@uthumanaliakbar",
+      // Instagram, Twitter and Kaggle are also supported in the links!
+      // To customize icons and social links, tweak src/components/SocialMedia
+      display: true // Set true to display this section, defaults to false
+    };
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
-};
+
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -222,7 +223,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://uthumanvlog.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -254,7 +255,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "First Indian to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -281,7 +282,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://abudhabi.dubizzle.com/"
         }
       ]
     },
@@ -295,7 +296,7 @@ const achievementSection = {
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://abudhabi.dubizzle.com/"
         }
       ]
     }
@@ -354,7 +355,8 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    //---commented because, we donot have ready recorded podcast
+   // "https://anchor.fm/codevcast/embed/episodes/DevStory---Irfan-Khan-from-Kannur--kerala-india-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -372,8 +374,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+971-554797652",
+  email_address: "uthumanaliakbar@gmail.com"
 };
 
 // Twitter Section
