@@ -33,18 +33,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-      github: "https://github.com/ali2307",
-      linkedin: "https://www.linkedin.com/in/uthumanali7/",
-      gmail: "uthumanaliakbar@gmail.com",
-      medium: "https://medium.com/@uthumanaliakbar",
-      // Instagram, Twitter and Kaggle are also supported in the links!
-      // To customize icons and social links, tweak src/components/SocialMedia
-      display: true // Set true to display this section, defaults to false
-    };
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/ali2307",
+  linkedin: "https://www.linkedin.com/in/uthumanali7/",
+  gmail: "uthumanaliakbar@gmail.com",
+  medium: "https://medium.com/@uthumanaliakbar",
+  // Instagram, Twitter, and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
-
+  display: true, // Set true to display this section, defaults to false
+};
 
 // Skills Section
 
