@@ -23,7 +23,7 @@ const greeting = {
   username: "Uthuman Ali",
   title: "Hi all, I'm Uthuman",
   subTitle: emoji(
-    "A passionate DevOps 🚀 having an experience of building Web the Application in Cloud and On-premises with CI/CD Pipeline."
+    "DevOps Engineer 🚀 experienced in developing scalable, secure web applications and streamlining deployments with CI/CD automation across hybrid infrastructures"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
