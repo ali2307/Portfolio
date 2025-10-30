@@ -1,50 +1,111 @@
-.education-heading {
-  font-size: 56px;
-  font-weight: 400;
-}
+@import "../../_globalColor";
 
-.education-section {
+/* Wrapper for the whole achievement section */
+.achievement-section {
   display: flex;
   flex-direction: column;
   width: 90%;
-  padding: 20px 0px;
-  margin: 0px auto;
+  padding: 20px 0;
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
-.education-section > * {
-  flex: 1;
-  margin-bottom: 30px;
+/* Heading */
+.achievement-heading {
+  font-size: 56px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.education-card-container {
-  display: flex;
-  flex-direction: column;
+/* Achievement card grid */
+.achievement-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
   padding-top: 20px;
 }
 
+/* Individual card */
+.certificate-card {
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.certificate-card:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+
+.dark-mode.certificate-card:hover {
+  box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
+}
+
+/* Text styles */
+.card-title {
+  color: $titleColor;
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin: 15px 0 10px 0;
+}
+
+.card-subtitle {
+  color: $cardSubtitle;
+  font-size: 1.063rem;
+  line-height: 1.5rem;
+}
+
+/* Footer tags */
+.certificate-card-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.certificate-card-footer span.certificate-tag {
+  background: $buttonColor;
+  color: $lightBackground3;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+span.certificate-tag:hover {
+  background: $buttonHover;
+}
+
+/* Responsive styles */
 @media (max-width: 1380px) {
-  .education-card-container {
-    padding-top: 0px;
-  }
-  .education-heading {
+  .achievement-heading {
     font-size: 40px;
   }
-  .education-text-subtitle {
+
+  .card-subtitle {
     font-size: 18px;
     text-align: center;
   }
 }
 
 @media (max-width: 768px) {
-  .education-card-container {
-    padding-top: 0px;
-  }
-  .education-heading {
+  .achievement-heading {
     font-size: 30px;
     text-align: center;
   }
-  .education-text-subtitle {
+
+  .card-subtitle {
     font-size: 16px;
   }
 }

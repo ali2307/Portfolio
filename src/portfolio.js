@@ -45,158 +45,199 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "AUTOMATE • DEPLOY • SCALE • MONITOR",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚙️ Design and deploy secure, scalable, and automated cloud infrastructures on Azure and AWS"),
+    emoji("🚀 Build CI/CD pipelines using GitHub Actions, Jenkins, and Docker for seamless app delivery"),
+    emoji("☁️ Manage Infrastructure as Code (IaC) using Terraform and Ansible for consistent provisioning"),
+    emoji("🔍 Monitor and optimize system performance using Prometheus, Grafana, and ELK stack"),
+    emoji("🔒 Implement DevSecOps practices — secrets management, access control, and compliance automation"),
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "python",
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-code-branch"
+    },
+    {
+      skillName: "Ansible",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "GitHub Actions",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fas fa-cogs"
+    },
+    {
+      skillName: "Prometheus",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Grafana",
+      fontAwesomeClassname: "fas fa-tachometer-alt"
+    },
+    {
+      skillName: "Nginx",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, // set false to hide section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Anna University",
+      logo: require("./assets/images/annaUniversityLogo.png"), // optional
+      subHeader: "Bachelor of Engineering",
+      duration: "2017 - 2021", // adjust year if needed
+      desc: "Graduated with strong foundation in engineering principles and DevOps-oriented technologies.",
+      grade: "CGPA: 8.9 / 10"
     }
   ]
 };
 
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // show proficiency section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Cloud & Infrastructure (Azure / AWS)",
+      progressPercentage: "85%" // strong cloud background
     },
     {
-      Stack: "Backend",
+      Stack: "CI/CD & Automation (Jenkins / GitHub Actions / Docker)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Containerization & Orchestration (Docker / Kubernetes)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Infrastructure as Code (Terraform / Ansible)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Monitoring & Security (Prometheus / Grafana / ELK / DevSecOps)",
+      progressPercentage: "65%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // show the work experience section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "DevOps Engineer",
+      company: "Alpha Data",
+      companylogo: require("./assets/images/Alphadata.png"),
+      date: "Mar 2025 – Present",
+      location: "Abu Dhabi, United Arab Emirates",
+      desc: "Leading DevOps initiatives for cloud infrastructure modernization and automation projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implementing CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI/CD to streamline software delivery.",
+        "Managing cloud resources across Azure and AWS with Terraform and Ansible for automated provisioning.",
+        "Containerizing and orchestrating applications using Docker and Kubernetes for scalable deployments.",
+        "Configuring NGINX and reverse proxies to optimize performance and ensure secure traffic routing.",
+        "Integrating monitoring solutions (Prometheus, Grafana, Zabbix) for proactive performance tracking.",
+        "Collaborating with development teams to enforce DevSecOps practices and secrets management.",
+        "Improving release cycles and reducing manual intervention through infrastructure-as-code automation."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cloud Architect",
+      company: "Khalifa Economic Zones Abu Dhabi",
+      companylogo: require("./assets/images/KezadLogo.png"),
+      date: "Feb 2024 – Feb 2025",
+      location: "Abu Dhabi, United Arab Emirates",
+      desc: "Software Solution Company focused on enterprise cloud and e-commerce platforms.",
+      descBullets: [
+        "Architected and containerized e-commerce platforms using Docker and Kubernetes for high availability.",
+        "Automated deployments using Helm charts, reducing deployment errors by 70%.",
+        "Configured NGINX reverse proxy and optimized backend routing to improve page load times by 25%.",
+        "Implemented SSL/TLS and AWS WAF for secure communication and DDoS mitigation.",
+        "Automated infrastructure provisioning using Terraform and Ansible, cutting setup time by 40%.",
+        "Developed CI/CD pipelines with Jenkins and GitLab for continuous delivery.",
+        "Integrated Prometheus and Grafana for monitoring, enhancing system reliability and performance."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cloud Solutions Architect",
+      company: "Axis Bank",
+      companylogo: require("./assets/images/axisBankLogo.png"),
+      date: "Jul 2021 – Jul 2023",
+      location: "Abu Dhabi, United Arab Emirates",
+      desc: "Service-based digital transformation and enterprise cloud projects.",
+      descBullets: [
+        "Designed and deployed cloud-native solutions using Azure Kubernetes Service (AKS).",
+        "Integrated Azure Key Vault and Azure AD for secure identity and credential management.",
+        "Implemented Azure API Management for seamless third-party integrations.",
+        "Migrated databases to Azure SQL Database with Geo-replication, reducing latency by 25%.",
+        "Automated CI/CD pipelines via Azure DevOps, reducing deployment time by 40%.",
+        "Architected microservices using Azure App Services and Azure Functions.",
+        "Implemented Azure Site Recovery and Backup achieving an RPO of 15 minutes.",
+        "Reduced infrastructure costs by 40% through optimized cloud resource utilization."
+      ]
+    },
+    {
+      role: "Linux System Administrator",
+      company: "Perpetuuiti Technosoft PTE",
+      companylogo: require("./assets/images/perpetuuitiLogo.png"),
+      date: "Jul 2020 – Jul 2021",
+      location: "Chennai, India",
+      desc: "Product-based enterprise automation and continuity solutions company.",
+      descBullets: [
+        "Installed, configured, and maintained Linux servers ensuring optimal uptime and performance.",
+        "Automated routine system administration tasks using Bash scripts, boosting efficiency by 30%.",
+        "Monitored systems with Nagios and Zabbix for proactive issue detection and resolution.",
+        "Configured Apache and NGINX web servers for internal and client applications.",
+        "Implemented backup and recovery processes using rsync and cron for data integrity."
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -209,96 +250,94 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "REAL-WORLD CLOUD & DEVOPS IMPLEMENTATIONS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://uthumanvlog.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      projectName: "ERP Project Deployment",
+      projectDesc:
+        "\n\nDeployed an Enterprise Resource Planning (ERP) system on AWS ensuring scalability, security, and high availability. Configured EC2 instances for resizable compute capacity and integrated auto-scaling, RDS, and CloudWatch for performance monitoring.\n\n• Designed and implemented a scalable ERP infrastructure supporting 10,000+ users globally.\n• Achieved zero-downtime migrations using blue-green deployment strategies.\n• Optimized database reliability using Multi-AZ and DynamoDB caching.",
+      footerLink: []
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectName: "Healthcare IoT Integration",
+      projectDesc:
+        " s\n\nBuilt a Healthcare IoT integration solution on Microsoft Azure enabling real-time monitoring, analytics, and secure data flow between medical devices and cloud services.\n\n• Developed a prototype connecting IoT devices to Azure IoT Hub for patient vitals monitoring.\n• Stored patient data securely in Azure Cosmos DB ensuring HIPAA compliance.\n• Implemented Azure Stream Analytics and Power BI dashboards for real-time visualization.",
+      footerLink: []
+    },
+    {
+      projectName: "DRM for Banking Sector",
+      projectDesc:
+        "\n\nDesigned and implemented an automated Disaster Recovery Management (DRM) plan for a banking client using AWS services to ensure business continuity.\n\n• Automated backups and failover with AWS Backup, RDS Multi-AZ, and S3 Cross-Region Replication.\n• Developed recovery workflows using AWS CloudFormation templates.\n• Achieved an RTO of 15 minutes through proactive DR drills and automated recovery testing.",
+      footerLink: []
+    },
+    {
+      projectName: "E-Commerce Platform Optimization",
+      projectDesc:
+        "\n\nOptimized an e-commerce application using AWS infrastructure and containerization for enhanced scalability and performance.\n\n• Deployed Node.js-based e-commerce system on AWS EC2 using a three-tier architecture.\n• Configured Auto Scaling and Load Balancers for high availability.\n• Implemented RDS Multi-AZ, DynamoDB caching, and CloudFront CDN for faster content delivery.\n• Improved page load time by 2 seconds through optimized caching and CDN integration.\n• Implemented Kubernetes autoscaling for seamless handling of peak traffic spikes.",
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set to true to display this section
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional certifications and measurable DevOps achievements demonstrating expertise in cloud, automation, and system optimization.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Microsoft Certified: DevOps Engineer Expert",
       subtitle:
-        "First Indian to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Validated expertise in CI/CD, automation, and cloud infrastructure management using Azure DevOps and GitHub Actions."
     },
     {
-      title: "Google Assistant Action",
+      title: "Microsoft Certified: Azure Administrator Associate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://abudhabi.dubizzle.com/"
-        }
-      ]
+        "Proficient in managing Azure identities, networking, virtual machines, storage, and hybrid cloud environments."
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://abudhabi.dubizzle.com/"
-        }
-      ]
+      title: "AWS Certified Solutions Architect",
+      subtitle:
+        "Skilled in designing and deploying scalable, fault-tolerant AWS architectures ensuring performance and security."
+    },
+    {
+      title: "Red Hat Certified Specialist in Linux Diagnostics and Troubleshooting",
+      subtitle:
+        "Strong ability to diagnose and resolve system performance, reliability, and configuration issues on RHEL systems."
+    },
+    {
+      title: "Certified SAFe® 4 DevOps Practitioner",
+      subtitle:
+        "Demonstrated understanding of DevOps principles, automation pipelines, and Agile enterprise delivery practices."
+    },
+    {
+      title: "Cisco Certified Network Professional – Cloud",
+      subtitle:
+        "Experienced in cloud network architecture, hybrid connectivity, and cloud security using Cisco technologies."
+    },
+    {
+      title: "Certification of Jira – Coursera",
+      subtitle:
+        "Practical experience in Agile project management, issue tracking, and workflow automation using Jira."
+    },
+    {
+      title: "Key DevOps Achievements",
+      subtitle:
+        "• Achieved 40% cost savings by migrating workloads to Azure.\n" +
+        "• Reduced deployment errors by 70% using Helm automation.\n" +
+        "• Improved database query performance by 30% through optimization.\n" +
+        "• Enhanced website performance by 25% with NGINX configuration and caching strategies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
+
 
 // Blogs Section
 
@@ -333,12 +372,6 @@ const talkSection = {
   ),
 
   talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
