@@ -348,16 +348,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@uthumanaliakbar/devops-talks-a446d2537f7a",
+      title: "Let's Talk DevOps",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Join me in exploring the world of DevOps, where we bridge the gap between development and operations."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@uthumanaliakbar/setting-up-devops-for-node-js-application-on-premises-dba287d50898",
+      title: "Setting Up DevOps for Node.js Application (On-Premises)",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "A comprehensive guide to setting up a DevOps pipeline for Node.js applications in on-premises environments."
     }
   ],
   display: true // Set false to hide this section, defaults to true
